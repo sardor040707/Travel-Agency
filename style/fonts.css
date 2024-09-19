@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "PB700";
+    src: url(../fonts/Poppins-Bold-700.ttf);
+}
+@font-face {
+    font-family: "PSB600";
+    src: url(../fonts/Poppins-SemiBold-600.ttf);
+}
+@font-face {
+    font-family: "PR400";
+    src: url(../fonts/Poppins-Regular-400.ttf);
+}
+@font-face {
+    font-family: "QuickKiss400";
+    src: url(../fonts/Quick\ Kiss\ Personal\ Use.ttf);
+}

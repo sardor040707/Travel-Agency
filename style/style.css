@@ -1,0 +1,249 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+:root{
+    --PB700:"PB700";
+    --PSB600:"PSB600";
+    --PR400:"PR400";
+    --QuickKiss400:"QuickKiss400"
+}
+/* Header start */
+
+.header{
+    background: url(../img/BG\ \(2\).png) no-repeat center center /cover;
+    height: 100vh;
+}
+.header__nav{
+    padding-top: 21px;
+}
+.header__nav-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-title{
+    font-family: var(--PSB600);
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+}
+.header__nav-lists{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.header__nav-link{
+    font-family: var(--PSB600);
+    line-height: 24px;
+    color: white;
+}
+.header__nav-item{
+    display: flex;
+    gap: 30px;  
+
+}
+.header__nav-btn{
+    display: flex;
+}
+.header__nav-button{
+    padding: 16px 47px;
+    border: none;
+    background: none;
+    font-family: var(--PSB600);
+    line-height: 24px;
+    color: white;
+    transition: .5s;
+}
+.header__nav-button:hover{
+    background: #FFC814;
+    border-radius: 5px;
+    color: #1F3347;
+}
+
+.header__content-content{
+    padding-top: 114px;
+}
+.header__content-title{
+    max-width: 488PX;
+    width: 100%;
+    font-family: var(--PB700);
+    font-size: 64px;
+    line-height: 76px;
+    color: white;
+}
+.header__content-text{
+    max-width: 563px;
+    width: 100%;
+    padding-top: 17px;
+    font-family: var(--PR400);
+    line-height: 30px;
+    color: white;
+}
+.header__content-button{
+    display: flex;
+    padding-top: 37px;
+    gap: 20px;
+}
+.header__content-btn{
+    max-width: 160px;
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    border-radius: 4px;
+    background:  #FFFDFD;
+    font-family: var(--PSB600);
+    line-height: 24px;
+    transition: .5s;
+    color: #22283C;
+    cursor: pointer;
+
+}
+.header__content-btn:hover{
+    background: #FFC814;
+}
+/* Header end */
+
+/* ************** */
+
+/* Main start */
+
+.main{
+    transform: translateY(-100px);
+}
+
+.main__content-iteam{
+    display: flex;
+    gap: 10px;
+}
+
+.main__content-list{
+    max-width: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--PSB600);
+    line-height: 24px;
+    border: 1px solid white; 
+    padding: 8px 0 8px 8px;
+    transition: .5s;
+    border-radius: 4px 4px 0 0 ;
+    background: white;
+    
+}
+
+.fa-solid {
+    font-size: 25px;
+}
+.main__content-list:hover{
+    background: #FFC814;
+}
+.main__content-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+    margin-bottom: 100px;
+
+}
+.main__form-title{
+    font-family: var(--PSB600);
+    line-height: 24px;
+}
+.main__form-inp{
+    border: none;
+    outline: none;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+    padding: 20px 0 21px 10px;
+}
+.main__form-inp::placeholder{
+    font-family: var(--PR400);
+    line-height: 15px;
+}
+
+.main__form-btn{
+    max-width: 160px;
+    width: 100%;
+    font-family: var(--PB700);
+    line-height: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 6px 24px 0px #E4E2EE;
+    transition: .5s;
+    cursor: pointer;
+}
+.main__form-btn:hover{
+    background: #FFC814;
+    box-shadow: 0px 6px 24px 0px #FFC81466;
+
+}
+
+.main__info-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__info-us{
+    font-family: var(--QuickKiss400);
+    color:  #FFC814;
+    font-size: 24px;
+    line-height: 15px;
+    
+}
+.main__info-title{
+    font-family: var(--PB700);
+    font-size: 36px;
+    line-height: 48px;
+    color: #1F3347;
+    margin: 10px 0 40px 0;
+
+}
+.main__info-text{
+    font-family: var(--PR400);
+    line-height: 24px;
+    color: #9DA1B4;
+    max-width: 520px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main__info-check{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.main__info-check i {
+    color: #9DA1B4;
+}
+.main__info-checkText{
+    font-family: var(--PR400);
+    line-height: 36px;
+    color: #9DA1B4;
+}
+/* Main End */
+
+
+
+
+
+
+
+
+
+
